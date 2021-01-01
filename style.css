@@ -1,0 +1,98 @@
+body {
+  background-color: #fdb927;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body #main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+  width: 87%;
+  background-color: white;
+  height: 580px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0 10px 15px 0 rgba(85, 37, 130, 0.8), 0 12px 40px 0 rgba(85, 37, 130, 0.74);
+          box-shadow: 0 10px 15px 0 rgba(85, 37, 130, 0.8), 0 12px 40px 0 rgba(85, 37, 130, 0.74);
+}
+
+body #main header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  background-color: #552583;
+}
+
+#header-lay {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#img-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#img-div #img-lay {
+  width: 90%;
+}
+
+#img-div #img-lay .image {
+  width: 100%;
+  border-radius: 100%;
+  -webkit-box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.8), 0 12px 40px 0 rgba(85, 37, 130, 0.74);
+          box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.8), 0 12px 40px 0 rgba(85, 37, 130, 0.74);
+}
+
+#tribute-info {
+  overflow: scroll;
+  padding: 2%;
+}
+
+#title {
+  font-size: 42px;
+}
+
+p {
+  font-size: 32px;
+}
+/*# sourceMappingURL=style.css.map */
